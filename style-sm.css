@@ -1,0 +1,26 @@
+@media (max-width: 400px) {
+  .contact-box {
+    margin-left: 1rem;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .col-sm-12 .img-fluid {
+    min-width: 100%;
+  }
+
+  .col-sm-12.portfolio-box {
+    padding: 1rem 0.25rem 2rem 0.25rem;
+  }
+
+  .portfolio-box h1 {
+    padding-left: 1rem;
+  }
+
+  .my-box {
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+}

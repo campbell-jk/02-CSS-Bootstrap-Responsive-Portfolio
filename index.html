@@ -4,23 +4,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>My Portfolio - About Me</title>
+  <!-- Font links -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./style.css">
+    <!-- Personalized stylesheets by screen resolutions. Set in order of screen width priority... Small will only trigger if screen size 400px or less, then reverts to medium, then large, then all. -->
+    <link rel="stylesheet" href="./style-all.css">
+    <link rel="stylesheet" href="./style-lg.css">
+    <link rel="stylesheet" href="./style-md.css">
+    <link rel="stylesheet" href="./style-sm.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="./index.html">Kyle
-      Campbell</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- Navbar (Same layout for each html file) -->
+  <nav class="navbar navbar-light navbar-expand-md" role="navigation">
+    <span class="my-name">Kyle Campbell</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
+    <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="./contact.html">Contact</a>
         </li>
@@ -28,10 +34,55 @@
           <a class="nav-link" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./about.html">About</a>
+          <a class="nav-link" href="./index.html">About</a>
         </li>
+      </ul>
     </div>
   </nav>
+  <!-- Container for my About Me box -->
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8 my-box">
+        <h1>About Me</h1>
+        <img src="Assets/myfam.jpg" class="img-fluid"
+          alt="Me and my partners Joe and Rob, and our dog Geordi the miniature dachshund.">
+        <p>
+          Oh, hello! Didn't see you there. Thanks for coming to check out my portfolio!
+        </p>
+        <p>
+          The name's Kyle (I'm in the center there), nice to meet you!
+        </p>
+        <p>
+          I'm from a small town in North-western Florida called Wewahitchka. I moved to the Pacific Northwest in 2014
+          and have found the love(s!) of my life Rob (left) and Joe (right). We have a miniature dachshund named Geordi,
+          and 2 cats named Purrcard and Tweak (named by a 6 year old Joe).
+        </p>
+        <p>
+          My first introduction to coding was in the online game Neopets back when I was a kid. I used to find it so
+          cool that you could create a unique profile just by putting a color or image as your background. I'm currently
+          in a program to enter the field of Web Development, so stay tuned for more in the future!
+        </p>
+      </div>
+      <div class="column-md-4"></div>
+    </div>
+  </section>
+  <!-- Bootstrap JavaScripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
+<footer class="mt-auto">
+  <p>
+    Portfolio created by Kyle Campbell.
+    <br>
+    Background image by rawpixel.com
+  </p>
+</footer>
 
 </html>
