@@ -4,11 +4,15 @@ This project is part of the Full Stack Web Development boot camp. The assignment
 
 [View it in action on GitHub Pages!](https://campbell-jk.github.io/02-CSS-Bootstrap-Responsive-Portfolio/)
 
+<p align="center">
+    <img src="..\Assets\Images\02-CSS-Bootstrap-Responsive-Portfolio-thumbnail.png>
+</p>
+
 # Welcome to my portfolio project!
 
 This project was definitely a challenge, but in the most enjoying kind of way!
 
-It seemed like every step that I took to getting the website to look like the model, I ended up breaking something else. Each time I broke something, I had to stop, use DevTools and then use my google fu to figure out what I had stopped. 
+It seemed like every step that I took to getting the website to look like the model, I ended up breaking something else. Each time I broke something, I had to stop, use DevTools and then use my google fu to figure out what I had stopped.
 
 I discovered a lot of neat tricks and feel as though now I have a much stronger grasp on CSS as a language.
 

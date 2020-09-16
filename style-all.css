@@ -52,7 +52,7 @@ button.navbar-toggler {
 .my-box {
   font-family: "Nunito San", sans-serif;
   background-color: #ffffff;
-  margin: 2rem 1rem 0rem 1rem;
+  margin: 2rem 1rem 4rem 1rem;
 }
 
 .row h1 {
@@ -78,7 +78,7 @@ p {
 }
 
 #portfolio-box {
-  margin: 4rem 0 2rem 1rem;
+  margin: 4rem 0 4rem 1rem;
   padding: 2rem 1rem;
 }
 
