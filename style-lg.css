@@ -1,3 +1,21 @@
-@media (max-width:992px) {
-
+@media (max-width: 992px) {
+  .my-img {
+    min-width: 40%;
+    max-width: 40%;
+  }
+  .my-form {
+    box-sizing: content-box;
+    width: 30rem;
+  }
+  .portfolio-box img {
+    margin: 0;
+    padding: 1rem;
+    float: left;
+    width: 50%;
+  }
+  .portfolio-box::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }

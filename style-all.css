@@ -1,9 +1,8 @@
 body {
   background-image: url("./Assets/image-from-rawpixel-id-494506-jpeg.jpg");
-    min-height: 100vh;
+  min-height: 100vh;
   position: relative;
-  margin-bottom: 4rem;
-  padding-bottom: 4rem !important;
+  padding-bottom: 1rem !important;
   box-sizing: border-box;
 }
 
@@ -45,7 +44,7 @@ button.navbar-toggler {
 .my-box {
   font-family: "Nunito San", sans-serif;
   background-color: #ffffff;
-  margin: 2rem 1rem 0 1rem;
+  margin: 2rem 1rem 0rem 1rem;
 }
 
 .row h1 {
@@ -53,29 +52,49 @@ button.navbar-toggler {
   font-size: 2.5rem;
   font-weight: bolder;
   color: #4aaaa5;
-  margin: 2rem 1rem;
-  border-bottom: 1px solid grey;
+  padding: 1rem;
+  border-bottom: 1px solid #9f9fa0;
 }
 
-.row p {
-  padding: 0 2rem;
+p {
+  margin: 1rem -1rem;
+  padding: 0 2rem 1rem 2rem;
   font-size: 0.9rem;
   font-weight: 600;
 }
 
-.row img {
-  padding: 0.5rem 2rem;
-  max-width: 60%;
+.my-img {
+  min-width: 20%;
   float: left;
+  padding: 1rem;
 }
 
-.form-group div div {
-    line-height: .75rem;
+.portfolio-box {
+  margin: 4rem 0 2rem 1rem;
+  padding: 2rem 1rem;
+}
+
+.portfolio-box img {
+  min-width: 20%;
+  max-width: 350px;
+  height: auto;
+  padding: 1rem;
+}
+
+.my-form {
+  box-sizing: content-box;
+  width: 20rem;
+  padding-left: 1.5rem;
+}
+
+.form-text {
+  line-height: 1rem;
+  padding: 0.25rem 0;
 }
 
 .row .btn {
   margin-left: 1rem;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 0;
   background-color: #4aaaa5;
   border-color: #4aaaa5;
@@ -97,17 +116,15 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  margin-top: 3rem;
-  height: 5rem !important;
+  height: 4rem !important;
   width: 100%;
   font-size: 0.75rem;
   background-color: #666666;
-  border-top: 0.5rem solid #4aaaa5;
+  border-top: 0.45rem solid #4aaaa5;
 }
 
 footer p {
   color: #aaaaaa;
   text-align: center;
-  padding-top: 0.75rem;
   margin-bottom: 0;
 }

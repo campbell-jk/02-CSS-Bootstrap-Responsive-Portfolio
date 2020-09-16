@@ -1,18 +1,17 @@
 @media (max-width: 400px) {
+
   .contact-box {
     margin-left: 1rem;
   }
 
-  .form-control {
-    width: 100%;
+  .portfolio-box {
+    padding: 1rem 0.5rem 2rem 0.5rem;
+    margin-bottom: 3rem;
   }
 
-  .col-sm-12 .img-fluid {
-    min-width: 100%;
-  }
-
-  .col-sm-12.portfolio-box {
-    padding: 1rem 0.25rem 2rem 0.25rem;
+  .portfolio-box img {
+    margin: 1rem 0rem;
+    padding: 0rem 1.5rem;
   }
 
   .portfolio-box h1 {
@@ -20,6 +19,7 @@
   }
 
   .my-box {
+    margin-top: 4rem;
     padding-right: 0;
     padding-bottom: 1rem;
   }
