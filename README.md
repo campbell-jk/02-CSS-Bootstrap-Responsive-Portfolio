@@ -1,12 +1,13 @@
 # 02-CSS-Bootstrap-Responsive-Portfolio
 
+<p align="center">
+  <img src="./Assets/Images/02-CSS-Bootstrap-Responsive-Portfolio-thumbnail.png" width="740" height="591" alt="A preview of the deployed site" >
+</p>
+
 This project is part of the Full Stack Web Development boot camp. The assignment is to create a responsive portfolio for ourselves that uses elements from Bootstrap to match a specific design.
 
 [View it in action on GitHub Pages!](https://campbell-jk.github.io/02-CSS-Bootstrap-Responsive-Portfolio/)
 
-<p align="center">
-    <img src="..\Assets\Images\02-CSS-Bootstrap-Responsive-Portfolio-thumbnail.png>
-</p>
 
 # Welcome to my portfolio project!
 
