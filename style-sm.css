@@ -1,20 +1,19 @@
 @media (max-width: 400px) {
-
-  .contact-box {
+  #contact-box {
     margin-left: 1rem;
   }
 
-  .portfolio-box {
+  #portfolio-box {
     padding: 1rem 0.5rem 2rem 0.5rem;
     margin-bottom: 3rem;
   }
 
-  .portfolio-box img {
+  #portfolio-box img {
     margin: 1rem 0rem;
     padding: 0rem 1.5rem;
   }
 
-  .portfolio-box h1 {
+  #portfolio-box h1 {
     padding-left: 1rem;
   }
 

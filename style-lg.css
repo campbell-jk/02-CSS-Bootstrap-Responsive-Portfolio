@@ -7,13 +7,13 @@
     box-sizing: content-box;
     width: 30rem;
   }
-  .portfolio-box img {
+  #portfolio-box img {
     margin: 0;
     padding: 1rem;
     float: left;
     width: 50%;
   }
-  .portfolio-box::after {
+  #portfolio-box::after {
     content: "";
     clear: both;
     display: table;

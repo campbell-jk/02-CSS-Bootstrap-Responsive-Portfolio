@@ -3,11 +3,11 @@
     border: 0.5px solid #9f9fa0;
   }
 
-  .contact-box {
+  #contact-box {
     margin-top: 4rem;
   }
 
-  .portfolio-box img {
+  #portfolio-box img {
     margin: 0;
     padding: 1rem;
   }

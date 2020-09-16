@@ -1,3 +1,5 @@
+/* My partner is a software engineer. When reviewing my original code, he suggested created a style sheet for each screen size. I ordered them in the html so that they prioritize small to large screen and fix the settings for each */
+
 body {
   background-image: url("./Assets/image-from-rawpixel-id-494506-jpeg.jpg");
   min-height: 100vh;
@@ -75,12 +77,12 @@ p {
   padding: 1rem;
 }
 
-.portfolio-box {
+#portfolio-box {
   margin: 4rem 0 2rem 1rem;
   padding: 2rem 1rem;
 }
 
-.portfolio-box img {
+#portfolio-box img {
   min-width: 20%;
   max-width: 350px;
   height: auto;
