@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .my-img {
     min-width: 40%;
     max-width: 40%;
